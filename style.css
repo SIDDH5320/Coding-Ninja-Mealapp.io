@@ -1,0 +1,153 @@
+/* Import Google Fonts for the page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset default styling for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the entire body of the page */
+body {
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(114, 19, 19), rgb(255, 161, 30));
+    color: white;
+}
+
+/* Styling for links */
+a {
+    color: cornsilk;
+    text-decoration: none;   
+}
+
+/* Styling for links on hover */
+a:hover {
+    color: aliceblue;
+}
+
+/* Styling for the heading section in the header */
+#heading {
+    margin-top: 100px;
+}
+
+/* Styling for the back-to-home button */
+.mealbtn {
+    margin-top: 10px;
+}
+
+/* Styling for the app's logo */
+#logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 0 10px;
+}
+
+/* Styling for the header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white;
+}
+
+/* Styling for the app name in the header */
+.app_name {
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* Styling for the search bar in the header */
+#search-bar {
+    max-width: 700px;
+}
+
+/* Styling for the search input field */
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+
+/* Styling for meal cards */
+#card {
+    background-image: linear-gradient(119deg, #4046ffe6, #0b0e03e3);
+    padding: 10px;
+    color: white;
+    box-shadow: rgb(255, 196, 0) 0px 5px 15px;
+}
+
+/* Styling for meal card title */
+#card h5 {
+    color: rgb(65, 233, 18);
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* Styling for meal card images */
+#card img {
+    border-radius: 50%;
+}
+
+/* Styling for meal card titles */
+#card-title {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Styling for the meal details container */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #846197e6;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for the meal header section */
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+/* Styling for the meal thumbnail image */
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* Styling for the meal details section */
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+/* Styling for the meal instruction section */
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+/* Styling for the favorites off-canvas */
+#favourites-body {
+    background-color: #ffedb0;
+}
+
+/* Styling for the favorites title */
+#fav {
+    margin: 0 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
