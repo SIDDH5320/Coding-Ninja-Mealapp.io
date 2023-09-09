@@ -19,11 +19,4 @@ The Meal App is a web-based application that enables users to explore meal recip
 - Bootstrap (for styling)
 - [TheMealDB API](https://www.themealdb.com/api.php) (for meal data)
 
-## Getting Started
 
-To run the Meal App locally, follow these steps:
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/meal-app.git
