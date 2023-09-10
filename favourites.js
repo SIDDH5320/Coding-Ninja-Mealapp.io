@@ -88,14 +88,7 @@ async function showFavMealList() {
                                         <div class="card-body">
                                             <h5 class="card-title">${data.meals[0].strMeal}</h5>
                                             <div class="d-flex justify-content-between mt-5">
-                                                <button
-                                                    type="button"
-                                                    id="details-btn"
-                                                    class="btn btn-outline-light"
-                                                    onclick="showMealDetails(${data.meals[0].idMeal})"
-                                                >
-                                                    More Details
-                                                </button>
+                                              
                                                 <button
                                                     id="main${data.meals[0].idMeal}"
                                                     class="btn btn-outline-light active"
